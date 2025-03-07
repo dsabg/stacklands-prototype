@@ -1,0 +1,12 @@
+[
+  {
+    "Name": "Start Package",
+    "Price": "5",
+    "CommonCards": [ "Villager", "Tree", "Apple", "Branch", "Wood", "Stone", "Rock", "Iron Ingot Formula", "Branch Formula", "Tree Formula" ],
+    "UncommonCards": [ "Axe Formula", "Pickaxe Formula", "Sharpening Stone Formula", "Lumberjack Formula" ],
+    "RareCards": [],
+    "LegendaryCards": []
+  }
+
+  
+]

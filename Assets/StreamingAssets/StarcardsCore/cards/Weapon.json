@@ -1,0 +1,20 @@
+[
+  {
+    "Name": "Axe",
+    "Image": "Weapon_Axe.png",
+    "Rarity": "Uncommon",
+    "Value": "5",
+    "Attack": "2",
+    "Class": "Weapon"
+  },
+  {
+    "Name": "Pickaxe",
+    "Image": "Weapon_Pickaxe.png",
+    "Rarity": "Uncommon",
+    "Value": "5",
+    "Attack": "2",
+    "Class": "Weapon"
+    
+
+  }
+]

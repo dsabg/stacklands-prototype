@@ -1,0 +1,51 @@
+[
+  {
+    "Name": "Villager",
+    "Image": "People_Villager.png",
+    "Rarity": "Common",
+    "Class": "People",
+    "Health": "5",
+    "Attack": "1",
+    "OnStack": [
+      {
+        "Consume": [  "Axe" ],
+        "Create": [ "Lumberjack" ],
+        "Duration": 1,
+        "Times": 1
+      },
+      {
+        "Consume": [  "Pickaxe"  ],
+        "Create": [ "Miner" ],
+        "Duration": 1,
+        "Times": 1
+      }
+    ]
+
+  },
+  {
+    "Name": "Lumberjack",
+    "Image": "People_Lumberjack.png",
+    "Rarity": "Uncommon",
+    "Class": "People",
+    "Health": "5",
+    "Attack": "3"
+
+  },
+  {
+    "Name": "Miner",
+    "Image": "People_Miner.png",
+    "Rarity": "Uncommon",
+    "Class": "People",
+    "Health": "5",
+    "Attack": "3",
+    "OnStack": [
+      {
+        "Consume": [ { "Stone": { "Quantity": 3 } } ],
+        "Create": [ "Sharpening Stone" ],
+        "Duration": 2.5,
+        "Times": -1
+      }
+    ]
+
+  }
+]

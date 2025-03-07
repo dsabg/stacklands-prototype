@@ -1,0 +1,12 @@
+[
+  {
+    "Name": "Coin",
+    "Image": "Money_Coin.png",
+    "Rarity": "common",
+    "Value": "1",
+    "Class": "Money"
+    
+  }
+
+  
+]

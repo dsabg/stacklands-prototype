@@ -1,0 +1,12 @@
+[
+  {
+    "Name": "Apple",
+    "Image": "Food_Apple.png",
+    "Rarity": "common",
+    "Class": "Food",
+    "Value": "2",
+    "Food": "1"
+  }
+
+  
+]

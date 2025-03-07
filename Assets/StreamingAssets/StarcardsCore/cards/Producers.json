@@ -1,0 +1,49 @@
+[
+  {
+    "Name": "Tree",
+    "Image": "Producer_Tree.png",
+    "Rarity": "Common",
+    "Value": "3",
+    "Class": "Producer",
+    "OnStack": [
+      {
+        "Require": [ "Lumberjack" ],
+        "Create": [ "Wood" ,"Branch","Apple"],
+        "Duration": 2.5,
+        "Times": 5
+      }
+    ]
+  },
+  {
+    "Name": "Rock",
+    "Image": "Producer_Rock.png",
+    "Rarity": "Common",
+    "Class": "Producer",
+    "Value": "3",
+    "OnStack": [
+      {
+        "Require": [ "Miner" ],
+        "Create": [ "Stone","Iron Ore" ],
+        "Duration": 2.5,
+        "Times": 5
+      }
+    ]
+  },
+
+  {
+    "Name": "Smeltery",
+    "Image": "Producer_Iron.png",
+    "Rarity": "Uncommon",
+    "Value": "10",
+    "Class": "Producer",
+    "OnStack": [
+      {
+        "Consume": [ { "Iron Ore": { "Quantity": 2 } } ],
+        "Require": [ "Miner" ],
+        "Create": [ "Iron Ingot" ],
+        "Duration": 2.5,
+        "Times": -1
+      }
+    ]
+  }
+]

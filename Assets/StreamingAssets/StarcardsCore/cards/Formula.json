@@ -1,0 +1,74 @@
+[
+  {
+    "Name": "Axe Formula",
+    "Image": "default.png",
+    "Text": "Sharpening Stone + Iron Ingot + Miner = Axe",
+    "Rarity": "Uncommon",
+    "Value": "2",
+    "Class": "Formula"
+  },
+  {
+    "Name": "Pickaxe Formula",
+    "Image": "default.png",
+    "Text": "Sharpening Stone + 2 * Iron Ingot + Miner = Pickaxe",
+    "Rarity": "Uncommon",
+    "Value": "2",
+    "Class": "Formula"
+  },
+  {
+    "Name": "Sharpening Stone Formula",
+    "Image": "default.png",
+    "Text": "Miner + 3 * Stone = Sharpening Stone",
+    "Rarity": "Uncommon",
+    "Value": "2",
+    "Class": "Formula"
+  },
+  {
+    "Name": "Iron Ingot Formula",
+    "Image": "default.png",
+    "Text": "Smeltery + Miner + 2 * Iron Ore = Iron Ingot",
+    "Rarity": "Common",
+    "Value": "1",
+    "Class": "Formula"
+  },
+  {
+    "Name": "Branch Formula",
+    "Image": "default.png",
+    "Text": "Wood + Lumberjack  = Branch",
+    "Rarity": "Common",
+    "Value": "1",
+    "Class": "Formula"
+  },
+  {
+    "Name": "Lumberjack Formula",
+    "Image": "default.png",
+    "Text": "Villager + Axe  = Lumberjack",
+    "Rarity": "Uncommon",
+    "Value": "2",
+    "Class": "Formula"
+  },
+  {
+    "Name": "Miner Formula",
+    "Image": "default.png",
+    "Text": "Villager + Pickaxe  = Miner",
+    "Rarity": "Uncommon",
+    "Value": "2",
+    "Class": "Formula"
+  },
+  {
+    "Name": "Rock Formula",
+    "Image": "default.png",
+    "Text": "Rock+ Miner  = Stone/Iron Ore",
+    "Rarity": "Common",
+    "Value": "1",
+    "Class": "Formula"
+  },
+  {
+    "Name": "Tree Formula",
+    "Image": "default.png",
+    "Text": "Tree+ Lumberjack  = Wood/Branch/Apple",
+    "Rarity": "Common",
+    "Value": "1",
+    "Class": "Formula"
+  }
+]

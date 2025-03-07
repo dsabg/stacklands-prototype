@@ -1,0 +1,79 @@
+[
+  {
+    "Name": "Branch",
+    "Image": "Resource_Branch.png",
+    "Rarity": "Common",
+    "Class": "Resource",
+    "Value": "2"
+  },
+  {
+    "Name": "Wood",
+    "Image": "Resource_Wood.png",
+    "Rarity": "Common",
+    "Class": "Resource",
+    "Value": "1",
+    "OnStack": [
+      {
+        "Require": [ "Lumberjack" ],
+        "Create": [ "Branch" ],
+        "Duration": 2.5,
+        "Times": 1
+      }
+    ]
+  },
+  {
+    "Name": "Stone",
+    "Image": "Resource_Stone.png",
+    "Rarity": "Common",
+    "Class": "Resource",
+    "Value": "1",
+    
+  },
+  {
+    "Name": "Iron Ore",
+    "Image": "Resource_IronOre.png",
+    "Rarity": "Common",
+    "Class": "Resource",
+    "Value": "2"
+  },
+  {
+    "Name": "Iron Ingot",
+    "Image": "Resource_Iron.png",
+    "Rarity": "Common",
+    "Class": "Resource",
+    "Value": "5"
+  },
+  {
+    "Name": "Water",
+    "Image": "Resource_Water.png",
+    "Rarity": "Common",
+    "Class": "Resource",
+    "Value": "1"
+  },
+  {
+    "Name": "Sharpening Stone",
+    "Image": "Resource_SharpeningStone.png",
+    "Rarity": "Uncommon",
+    "Class": "Resource",
+    "Value": "5",
+    "OnStack": [
+      {
+        "Consume": [ { "Iron Ingot": { "Quantity": 2 } } ],
+        "Require": [ "Miner" ],
+        "Create": [ "Pickaxe" ],
+        "Duration": 2.5,
+        "Times": -1,
+        "Priority": "1"
+      },
+      {
+        "Consume": [ { "Iron Ingot": { "Quantity": 1 } } ],
+        "Require": [ "Miner" ],
+        "Create": [ "Axe" ],
+        "Duration": 2.5,
+        "Times": -1,
+        "Priority": "0"
+      }
+    ]
+  }
+
+]
